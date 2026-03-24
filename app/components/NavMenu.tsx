@@ -22,7 +22,7 @@ export default function NavMenu({ className }: NavMenuProps) {
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
-    smoothScrollTo(href, 80); // offset 80px
+    smoothScrollTo(href, 0); // offset 80px
     setIsOpen(false);
   };
 
@@ -30,14 +30,14 @@ export default function NavMenu({ className }: NavMenuProps) {
     <>
       {/* Desktop Navigation */}
       <nav
-        className={cn('hidden md:flex items-center gap-8 text-sm font-medium', className)}
+        className={cn('hidden md:flex items-center gap-2 text-sm font-medium', className)}
       >
         {navLinks.map((link) => (
           <a
             key={link.href}
             href={link.href}
             onClick={(e) => handleClick(e, link.href)}
-            className='relative text-foreground hover:text-primary transition-colors duration-200 py-2 group cursor-pointer'
+            className='relative text-foreground hover:text-primary transition-colors duration-200 p-2 group cursor-pointer'
           >
             {link.label}
             <span className='absolute bottom-0 left-0 h-0.5 w-0 bg-primary group-hover:w-full transition-all duration-300' />
@@ -57,7 +57,7 @@ export default function NavMenu({ className }: NavMenuProps) {
       {/* Mobile Slide-in Menu */}
       <div
         className={cn(
-          'fixed inset-y-0 left-0 z-50 h-screen w-[80%] max-w-95 bg-background shadow-2xl md:hidden transition-transform duration-300 ease-out',
+          'fixed inset-y-0 left-0 z-50 h-screen w-[80%] max-w-95 bg-background shadow-2xl md:hidden rounded-br-xl rounded-tr-xl transition-transform duration-300 ease-out',
           isOpen ? 'translate-x-0' : '-translate-x-full',
         )}
       >
@@ -95,7 +95,6 @@ export default function NavMenu({ className }: NavMenuProps) {
             ))}
           </nav>
 
-          {/* CTA */}
           <div className='p-6 border-t border-border'>
             <a
               href='#contact'
@@ -108,7 +107,6 @@ export default function NavMenu({ className }: NavMenuProps) {
         </div>
       </div>
 
-      {/* Overlay với animation */}
       <AnimatePresence>
         {isOpen && (
           <motion.div

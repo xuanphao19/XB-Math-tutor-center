@@ -21,7 +21,7 @@ export default function ThemeSwitcher() {
       <Button
         size='icon'
         variant='ghost'
-        className='w-10 h-10'
+        className='w-10 h-10 size-4'
         aria-hidden='true'
       />
     );

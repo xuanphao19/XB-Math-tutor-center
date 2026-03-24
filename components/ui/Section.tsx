@@ -13,15 +13,15 @@ type SectionProps = {
 
 export default function Section({
   children,
-  className = '',
+  className = 'text-foreground',
   id,
-  bgColor = 'bg-white dark:bg-gray-900',
+  bgColor = 'bg-background dark:bg-gray-900',
   paddingY = 'py-12 sm:py-16',
 }: SectionProps) {
   return (
     <section
       id={id}
-      className={`${bgColor} ${paddingY} ${className}`}
+      className={`${bgColor} ${paddingY} ${className} transition-all duration-300 ease-linear`}
     >
       {children}
     </section>

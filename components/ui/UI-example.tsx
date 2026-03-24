@@ -57,7 +57,7 @@ export default function ButtonExamples() {
 
           <div className='mt-8 flex gap-4'>
             <Button size='icon'>
-              <Heart className='size-4 ' />
+              <Heart className='size-4' />
             </Button>
             <Button size='icon-sm'>
               <Settings className='size-4' />

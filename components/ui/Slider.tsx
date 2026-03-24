@@ -11,19 +11,20 @@ type SliderProps = {
   slides: ReactNode[];
   settings?: object;
   className?: string;
+  customSlider?: string;
 };
 
 const Arrow = ({ onClick, direction }: any) => {
   const rotate = direction === 'prev' ? 'rotate-180' : '';
   return (
     <button
-      className={`absolute top-1/2 transform -translate-y-1/2 rounded-full shadow-lg   transition-all duration-300 opacity-40 hover:opacity-90 border border-amber-100 bg-white hover:bg-gray-100 p-1 z-10 cursor-pointer ${
-        direction === 'prev' ? 'left-[-6]' : 'right-[-6]'
+      className={`absolute top-1/2 transform -translate-y-1/2 rounded-full shadow-lg   transition-all duration-300 opacity-40 hover:opacity-90 border border-amber-100 hover:border-amber-300 bg-white hover:bg-gray-100 p-1 z-10 cursor-pointer ${
+        direction === 'prev' ? 'left-[-4]' : 'right-[-4]'
       }`}
       onClick={onClick}
     >
       <svg
-        className={`w-4 h-4 text-pink-600 dark:text-pink-400 ${rotate}`}
+        className={`w-5 h-5 text-pink-600 dark:text-pink-400 ${rotate}`}
         fill='currentColor'
         viewBox='0 0 20 20'
       >
@@ -35,6 +36,7 @@ const Arrow = ({ onClick, direction }: any) => {
 
 export default function AppSlider({
   slides,
+  customSlider,
   settings = {},
   className = '',
 }: SliderProps) {
@@ -50,42 +52,34 @@ export default function AppSlider({
     nextArrow: <Arrow direction='next' />,
     prevArrow: <Arrow direction='prev' />,
     appendDots: (dots: ReactNode) => (
-      <div className='absolute bottom-3 w-full flex justify-center'>
-        <ul className='flex gap-2'>{dots}</ul>
+      <div>
+        <ul className='ml-6 flex gap-2'>{dots}</ul>
       </div>
     ),
     customPaging: (i: number) => (
-      <div className='w-8 h-3 bg-chart-1 dark:bg-chart-2 rounded-sm transition-all duration-300 transform scale-50'></div>
+      <span className='flex mt-1 w-8 h-3 bg-chart-1 dark:bg-chart-2 rounded-sm transition-all duration-300 transform scale-50'></span>
     ),
     ...settings,
   };
 
   return (
-    <div className={`w-full relative ${className}`}>
+    <div className={`w-full ${className}`}>
       <Slider {...defaultSettings}>
         {slides.map((slide, idx) => (
           <div
             key={idx}
-            className='px-2'
+            className='slider-item'
           >
             {slide}
           </div>
         ))}
       </Slider>
-
       <style
         jsx
         global
-      >{`
-        .slick-dots li.slick-active div {
-          background-color: #fe215e !important;
-          transform: scaleX(2) !important;
-          transform-origin: left !important;
-          transition:
-            transform 0.5s ease-in-out,
-            background-color 0.3s;
-        }
-      `}</style>
+      >
+        {customSlider}
+      </style>
     </div>
   );
 }

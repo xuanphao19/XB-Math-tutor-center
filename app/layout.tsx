@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 import './globals.css';
+import Sidebar from './components/Sidebar';
 
 export const metadata = {
   title: 'Trung Tâm Toán Hóa 6-12',
@@ -18,7 +19,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       lang='vi'
       suppressHydrationWarning
     >
-      <body className='bg-white text-gray-800'>
+      <body className=''>
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
@@ -26,24 +27,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           disableTransitionOnChange={false}
         >
           <Header />
-          <main>{children}</main>
-          <Footer />
+          <div className='flex'>
+            <Sidebar />
+            <main
+              id='main-scroll'
+              className='flex-1 min-w-0 h-[calc(100vh-200px)] overflow-y-auto no-scrollbar'
+            >
+              {children}
+              <Footer />
+            </main>
+          </div>
         </ThemeProvider>
       </body>
     </html>
   );
 }
-
-/*
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/xuanphao19/XB-Math-tutor-center.git
-git push -u origin main
-
-
-
-  
-*/

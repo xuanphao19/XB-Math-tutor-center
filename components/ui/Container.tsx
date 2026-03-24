@@ -9,18 +9,19 @@ type ContainerProps = {
   id?: string;
 };
 
-export default function Container({ children, className = '', id }: ContainerProps) {
+export default function Container({
+  children,
+  className = `px-4 xl:max-w-5/6`,
+  id,
+}: ContainerProps) {
   return (
     <div
       id={id}
-      className={`
-        container
-        mx-auto
-        px-4 sm:px-6 md:px-8
-        ${className}
-      `}
+      className={`w-full mx-auto ${className}`}
     >
       {children}
     </div>
   );
 }
+
+// container

@@ -1,7 +1,7 @@
 // app/page.tsx
-import Hero from './components/Hero';
-import About from './components/About';
-import Courses from './components/Courses';
+import Hero from './(marketing)/Hero';
+import About from './(marketing)/About';
+import Courses from './(marketing)/Courses';
 import Testimonials from './components/Testimonials';
 import Benefits from './components/Benefits';
 import CallToAction from './components/CallToAction';
@@ -16,7 +16,7 @@ export default function Home() {
       <Testimonials />
       <Benefits />
       <CallToAction />
-      <ButtonExamples />
+      <ButtonExamples />{' '}
     </>
   );
 }

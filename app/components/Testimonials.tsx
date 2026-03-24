@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef } from 'react';
+
 import useEmblaCarousel from 'embla-carousel-react';
 
 const feedbacks = [

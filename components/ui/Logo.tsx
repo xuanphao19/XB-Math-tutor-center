@@ -4,17 +4,21 @@
 
 import Link from 'next/link';
 import { cn } from '@/lib/cn';
+import { ReactNode } from 'react';
+import { scrollToTop } from '@/lib/utils';
 
 type LogoProps = {
+  alt?: string;
   href?: string;
   imgSrc?: string;
-  children?: string;
+  children?: ReactNode;
   isLogoHeaderHome?: boolean;
   className?: string;
   classContent?: string;
 };
 
 export default function Logo({
+  alt = '',
   href = '/',
   imgSrc = '/assets/images/Logo.png',
   children,
@@ -32,11 +36,12 @@ export default function Logo({
       <Link
         href={href}
         className='shrink-0 transition-transform group-hover:scale-105'
+        onClick={() => scrollToTop(0)}
       >
         <img
           src={imgSrc}
-          alt={children ?? 'Logo'}
-          className='h-7 w-7 object-contain drop-shadow-sm'
+          alt={alt ?? 'Logo'}
+          className='logo-img h-7 w-7 object-contain drop-shadow-sm'
         />
       </Link>
 
@@ -44,10 +49,11 @@ export default function Logo({
         <Link
           href={href}
           className={cn(
-            'font-semibold text-sm tracking-tight transition-colors',
-            'text-foreground hover:text-primary',
+            'logo-text font-semibold text-sm tracking-tight transition-colors',
+            'text-foreground hover:text-primary line-clamp-1',
             classContent,
           )}
+          onClick={() => scrollToTop(0)}
         >
           {children}
         </Link>
