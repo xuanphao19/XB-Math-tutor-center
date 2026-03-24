@@ -1,0 +1,405 @@
+🧠 TỔNG QUAN 1 CÂU
+
+👉 Đây là:
+
+Nền tảng học Toán – Hóa = Marketing → Học → Luyện → Tương tác → Theo dõi → Cá nhân hóa → Kiếm tiền
+
+I. 🌐 1. MARKETING (SEO + LEAD)
+🎯 Mục tiêu:
+Thu hút học sinh
+Tạo niềm tin
+Thu lead (đăng ký)
+📦 Bao gồm:
+Trang chủ
+Trang khóa học
+Trang lộ trình 40 buổi
+Blog (bài viết SEO)
+🔗 Vai trò trong hệ thống:
+
+👉 Điểm vào (Entry point)
+
+Google → Blog / Trang chủ → Đăng ký test
+II. 🎓 2. LEARNING (VIDEO + LỘ TRÌNH)
+🎯 Mục tiêu:
+Truyền đạt kiến thức
+Tạo sản phẩm cốt lõi
+📦 Bao gồm:
+✔ Free:
+Video (YouTube)
+Bài viết
+✔ Pro:
+Video nội bộ
+Lộ trình 40 buổi
+Chia level (mất gốc → trung bình)
+🔗 Vai trò:
+
+👉 Biến người dùng → học sinh
+
+III. 🧪 3. PRACTICE (BÀI TẬP + THI) 🔥
+🎯 Mục tiêu:
+Luyện tập
+Kiểm tra thực lực
+📦 Bao gồm:
+Bài tập theo bài học
+Đề kiểm tra
+Thi thử
+⚙️ Tính năng:
+Làm bài
+Nộp bài
+Chấm điểm
+Hiển thị lời giải
+Phân tích sai
+🔗 Vai trò:
+
+👉 Biến “học” → “hiểu thật”
+
+IV. 💬 4. COMMUNITY (THẢO LUẬN – HỎI ĐÁP) 🔥
+🎯 Mục tiêu:
+Tăng tương tác
+Giảm tải giáo viên
+Tạo SEO tự nhiên
+📦 Bao gồm:
+Hỏi – đáp bài tập
+Bình luận theo bài học
+Upvote / chọn đáp án đúng
+Giáo viên xác nhận
+🔗 Vai trò:
+
+👉 Giữ học sinh trong hệ thống lâu dài
+
+V. 📊 5. TRACKING (TRANG CÁ NHÂN HỌC SINH) 🔥
+🎯 Mục tiêu:
+Theo dõi tiến độ
+Tạo niềm tin (đặc biệt với phụ huynh)
+📦 Bao gồm:
+Điểm số
+Lịch sử làm bài
+Tiến độ học
+Điểm yếu
+🔥 Nâng cấp:
+Gợi ý học lại
+Báo cáo phụ huynh
+🔗 Vai trò:
+
+👉 Biến hệ thống → “có kiểm soát chất lượng”
+
+VI. 💳 6. MONETIZATION (BÁN KHÓA HỌC)
+🎯 Mục tiêu:
+Tạo doanh thu
+📦 Bao gồm:
+Mua khóa học online
+Đăng ký lớp offline
+Booking học 1–1
+🔗 Vai trò:
+
+👉 Chuyển đổi từ user → khách hàng
+
+VII. 🧠 7. FLASHCARDS (CÁ NHÂN HÓA GHI NHỚ) 🔥
+
+👉 Đây là phần ông thêm — và rất thông minh
+
+🎯 Mục tiêu:
+Ghi nhớ kiến thức nền
+Cá nhân hóa học tập
+📦 Bao gồm:
+Flashcards theo bài học
+Câu hỏi – đáp án ngắn
+Ôn tập nhanh
+🔥 Nâng cấp (rất quan trọng):
+Spaced repetition (lặp lại thông minh)
+Cá nhân hóa theo:
+bài đã học
+bài làm sai
+🔗 Vai trò:
+
+👉 Biến:
+
+“hiểu” → “nhớ lâu”
+VIII. 🔗 DÒNG CHẢY TOÀN HỆ THỐNG
+1. Marketing
+   ↓
+2. Learning
+   ↓
+3. Practice
+   ↓
+4. Community
+   ↓
+5. Tracking
+   ↓
+7. Flashcards (củng cố)
+   ↓
+6. Monetization (upsell / giữ chân)
+
+👉 Đây là:
+
+Vòng lặp học tập hoàn chỉnh
+
+IX. 🧱 ROUTE STRUCTURE (FINAL)
+/                 → Trang chủ
+/khoa-hoc         → Danh sách khóa học
+/lo-trinh         → Lộ trình
+/blog             → SEO
+/hoi-dap          → Community
+
+/app/dashboard    → Tracking
+/app/course       → Learning
+/app/quiz         → Practice
+/app/flashcards   → Flashcards
+
+/admin            → Quản trị
+X. 🎯 USP CUỐI CÙNG (CỰC QUAN TRỌNG)
+
+👉 Nếu làm đủ 7 hệ thống:
+
+Ông KHÔNG còn là:
+trung tâm dạy thêm
+Mà là:
+
+👉 Nền tảng học tập cá nhân hóa có cộng đồng + luyện tập + theo dõi + ghi nhớ
+
+XI. ⚠️ 3 NGUYÊN TẮC SỐNG CÒN
+1. Practice phải mạnh
+→ đây là lõi khác biệt
+
+2. Community phải sạch
+→ không spam
+
+3. Tracking phải rõ
+→ phụ huynh tin
+
+XII. CHỐT CUỐI
+
+👉 Hệ thống của ông = 7 modules:
+    Marketing
+    Learning
+    Practice
+    Community
+    Tracking
+    Monetization
+    Flashcards
+
+👉 Đây là cấu trúc:
+ĐỦ để xây một nền tảng giáo dục thực sự – không cần sửa lại sau này
+
+🚀 Khi quay lại
+Chúng ta sẽ bắt đầu đúng thứ tự:
+
+👉 1. Skeleton project
+👉 2. Learning
+👉 3. Practice
+
+Chỉ cần ông nói:
+
+👉 “Bắt đầu build”
+
+
+
+my-tutor-center/
+├── app/                          # App Router
+│   ├── (marketing)/              # Public pages - SEO & lead
+│   │   ├── layout.tsx
+│   │   ├── page.tsx              # Trang chủ
+│   │   ├── ve-chung-toi/
+│   │   │   └── page.tsx
+│   │   ├── lo-trinh/
+│   │   │   └── page.tsx
+│   │   ├── ket-qua-minh-chung/
+│   │   │   └── page.tsx
+│   │   ├── tai-lieu-mien-phi/
+│   │   │   └── page.tsx
+│   │   ├── blog/
+│   │   │   ├── page.tsx          # Danh sách bài viết
+│   │   │   └── [slug]/
+│   │   │       └── page.tsx      # Bài viết chi tiết
+│   │   └── dang-ky-test/
+│   │       └── page.tsx
+│   ├── (app)/                    # Protected - sau login
+│   │   ├── layout.tsx            # Layout riêng (sidebar, header học viên)
+│   │   ├── hoc-vien/
+│   │   │   └── page.tsx          # Dashboard cá nhân
+│   │   ├── hoc-free/
+│   │   │   └── page.tsx
+│   │   ├── khoa-hoc-pro/
+│   │   │   └── page.tsx          # Lộ trình Pro
+│   │   ├── bai-tap/
+│   │   │   └── page.tsx
+│   │   ├── thao-luan/
+│   │   │   └── page.tsx
+│   │   ├── flashcards/
+│   │   │   └── page.tsx
+│   │   └── thanh-toan/
+│   │       └── page.tsx
+│   ├── api/                      # API routes nếu cần (hoặc dùng Server Actions)
+│   ├── globals.css
+│   ├── layout.tsx                # Root layout (header/footer chung)
+│   ├── favicon.ico
+│   └── not-found.tsx
+├── components/
+│   ├── ui/                       # shadcn components (tự động tạo)
+│   ├── shared/                   # Header, Footer, ZaloFloatButton...
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   └── ZaloChat.tsx
+│   ├── marketing/                # Hero, PainPoints, Roadmap...
+│   │   ├── Hero.tsx
+│   │   ├── PainPoints.tsx
+│   │   ├── Roadmap.tsx
+│   │   └── CTASection.tsx
+│   ├── learning/                 # VideoPlayer, LessonCard...
+│   ├── practice/                 # MathInput, QuizForm...
+│   │   └── MathInput.tsx         # MathLive editor
+│   └── community/                # ThreadList, CommentForm...
+├── lib/
+│   ├── constants.ts              # Slogan, hotline, Zalo OA ID...
+│   ├── utils.ts                  # cn() helper cho Tailwind
+│   └── schemas.ts                # Zod schemas cho form
+├── hooks/
+│   └── useAuth.ts                # Placeholder auth
+├── types/
+│   └── index.ts
+├── public/
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── hero-bg.jpg
+│   └── favicon.ico
+├── styles/
+└── ...
+
+      src/
+      ├── app/
+      │    ├── (marketing)/
+      │    │    ├── page.tsx
+      │    │    ├── khoa-hoc/page.tsx
+      │    │    ├── lo-trinh/page.tsx
+      │    │    ├── blog/page.tsx
+      │    │    └── hoi-dap/page.tsx
+      │    │
+      │    ├── (app)/
+      │    │    ├── dashboard/page.tsx
+      │    │    ├── course/[slug]/page.tsx
+      │    │    ├── quiz/[id]/page.tsx
+      │    │    └── flashcards/page.tsx
+      │    │
+      │    ├── admin/
+      │    │    └── page.tsx
+      │    │
+      │    ├── layout.tsx
+      │    └── globals.css
+      │
+      ├── components/
+      │    ├── ui/
+      │    │    ├── Button.tsx
+      │    │    ├── Card.tsx
+      │    │    └── Input.tsx
+      │    │
+      │    ├── layout/
+      │    │    ├── Header.tsx
+      │    │    ├── Footer.tsx
+      │    │    └── Sidebar.tsx
+      │    │
+      │    ├── learning/
+      │    │    ├── VideoPlayer.tsx
+      │    │    └── LessonList.tsx
+      │    │
+      │    ├── practice/
+      │    │    ├── Quiz.tsx
+      │    │    └── Question.tsx
+      │    │
+      │    ├── community/
+      │    │    ├── QuestionCard.tsx
+      │    │    └── AnswerList.tsx
+      │    │
+      │    └── flashcards/
+      │         └── Flashcard.tsx
+      │
+      ├── lib/
+      │    ├── db.ts
+      │    └── auth.ts
+      │
+      ├── services/
+      │    ├── course.service.ts
+      │    ├── quiz.service.ts
+      │    └── user.service.ts
+      │
+      ├── types/
+      │    ├── course.ts
+      │    ├── quiz.ts
+      │    └── user.ts
+
+
+ Đúng rồi anh Nguyễn!
+Slogan “Không chỉ giỏi hơn – Mà tốt hơn” cực kỳ hay và rất hợp thời 2026 tại Việt Nam. Phụ huynh hiện nay không chỉ muốn con “điểm cao thi vào 10/đại học” mà còn muốn con có nhân cách, biết suy nghĩ xã hội, biết trách nhiệm với cộng đồng. Đây chính là khoảng trống lớn mà hầu hết trung tâm Toán-Hóa hiện nay chưa làm được.
+Dưới đây là định hướng chiến lược + các hoạt động ngoại khóa cụ thể mình thiết kế dành riêng cho trung tâm anh (chỉ tập trung Toán + Hóa nhưng vẫn truyền tải mạnh giá trị xã hội). Mình chia thành 3 cấp độ để anh dễ triển khai dần.
+1. Định hướng tổng thể (Core Message)
+
+Tầm nhìn: “Học Toán – Hóa không chỉ để thi tốt, mà để hiểu thế giới và thay đổi thế giới tốt đẹp hơn.”
+Thông điệp xuyên suốt: Mọi hoạt động ngoại khóa đều có 2 phần:
+Phần 1: Kiến thức Toán/Hóa (kỹ năng).
+Phần 2: Áp dụng vào vấn đề xã hội thực tế (nhân cách + trách nhiệm).
+
+
+2. Các hoạt động ngoại khóa đề xuất (rất dễ làm + dễ tích hợp website)
+Cấp 1 – Dễ làm ngay (3–6 tháng đầu – chi phí thấp)
+
+“Toán/Hóa Vì Cộng Đồng” – Dự án nhóm nhỏ (mỗi quý 1 lần)
+Học sinh lớp 9–12 làm dự án thực tế:
+Tính toán carbon footprint của gia đình (Toán thống kê + Hóa khí nhà kính)
+Phân tích thành phần hóa học của rác thải nhựa, đề xuất giải pháp tái chế
+Dự báo lũ lụt bằng mô hình toán học đơn giản
+
+Kết quả: Học sinh trình bày + làm poster/video ngắn → đăng lên Blog & Community.
+Cách tích hợp: Tạo riêng mục “Dự án xã hội” trong dashboard học viên.
+
+Câu lạc bộ “STEM & Cuộc sống” (hàng tháng, 90 phút)
+Chủ đề luân phiên:
+“Hóa học trong thực phẩm – Ăn gì để khỏe và không hại môi trường?”
+“Toán học của bất bình đẳng – Tại sao khoảng cách giàu nghèo ngày càng lớn?”
+“AI & Đạo đức – Toán xác suất trong quyết định cuộc sống”
+
+Giáo viên dẫn dắt + học sinh tranh luận → ghi lại thành bài viết blog.
+
+Flashcard Xã hội (rất dễ làm)
+Tạo bộ flashcard đặc biệt: “Toán/Hóa trong đời sống”
+Mặt trước: “CO₂ là gì?” → Mặt sau: công thức + “1 người Việt thải bao nhiêu CO₂/năm?”
+
+Học sinh ôn flashcards này sẽ thấy kiến thức có ý nghĩa xã hội.
+
+
+Cấp 2 – Trung hạn (6–12 tháng)
+
+Cuộc thi “Giải pháp Xanh 2030” (hàng năm)
+Học sinh nộp dự án Toán/Hóa giải quyết vấn đề xã hội (giảm rác thải, tiết kiệm năng lượng, giáo dục cộng đồng…).
+Giải thưởng: Học bổng, chứng nhận, được đăng tải trên fanpage + website.
+Đây sẽ là nội dung marketing cực mạnh (video dự án + lời chứng thực).
+
+Chương trình tình nguyện “Dạy Toán – Hóa cho trẻ em khó khăn”
+Học sinh lớp 10–12 của trung tâm làm mentor cho học sinh lớp 6–8 ở vùng sâu (online hoặc offline).
+Kết hợp: Dạy kiến thức + kể chuyện về “Tại sao mình học Toán để giúp người khác”.
+Trung tâm cấp giấy chứng nhận “Học sinh trách nhiệm xã hội”.
+
+
+Cấp 3 – Dài hạn (1–2 năm – tạo thương hiệu mạnh)
+
+“Ngày hội Khoa học & Nhân văn” (1 lần/năm)
+Kết hợp triển lãm dự án + workshop + talkshow với khách mời (chuyên gia môi trường, nhà khoa học xã hội).
+Mời phụ huynh tham gia → tạo cảm giác “đây không chỉ là trung tâm học thêm”.
+
+
+3. Cách tích hợp vào website (rất quan trọng)
+
+Tạo mục mới trong menu: “Xã hội & Nhân cách” (hoặc “Tốt hơn”)
+Trong Dashboard học viên: Tab “Dự án xã hội của tôi”
+Blog có category riêng: “Toán/Hóa Vì Cuộc Sống”
+Community có diễn đàn chuyên: “Thảo luận xã hội qua lăng kính Toán – Hóa”
+Thêm badge trên profile học viên: “Giải pháp Xanh”, “Mentor cộng đồng”, “Học sinh trách nhiệm”
+
+Lợi ích khi làm theo hướng này
+
+Phụ huynh thấy con vừa giỏi vừa tốt → sẵn sàng trả học phí cao hơn và giới thiệu bạn bè.
+Học sinh gắn bó lâu dài (không chỉ học 40 buổi rồi đi).
+Thương hiệu khác biệt hoàn toàn so với Moon, Hocmai, Vuihoc… (họ chỉ tập trung điểm số).
+Dễ lên báo, TikTok, fanpage (nội dung dự án rất dễ viral).
+
+Anh Nguyễn thấy hướng này thế nào?
+Anh muốn mình đi sâu vào hoạt động nào trước (ví dụ chi tiết kế hoạch “Toán/Hóa Vì Cộng Đồng” hoặc cách tích hợp vào website)? Hay muốn mình đề xuất thêm 2–3 hoạt động khác phù hợp hơn với quy mô hiện tại?
+Cứ nói rõ là mình lập kế hoạch chi tiết luôn nhé! 🔥

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "content": "Giải phương trình x^2 - 1 = 0",
+    "type": "single",
+    "subject": "Toán",
+    "difficulty": 2,
+    "options": [
+      {
+        "id": "a",
+        "content": "x = 1",
+        "isCorrect": false
+      },
+      {
+        "id": "b",
+        "content": "x = ±1",
+        "isCorrect": true
+      }
+    ],
+    "explanation": "Áp dụng hằng đẳng thức hiệu hai bình phương",
+    "createdAt": "2026-03-23T10:00:00.000Z"
+  }
+]

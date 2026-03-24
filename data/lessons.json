@@ -1,0 +1,15 @@
+[
+  {
+    "id": "44444444-4444-4444-4444-444444444444",
+    "courseId": "33333333-3333-3333-3333-333333333333",
+    "title": "Phương trình bậc 1",
+    "description": "Hiểu và giải phương trình cơ bản",
+    "order": 1,
+    "phase": "Hồi sinh",
+    "subject": "Toán",
+    "videoUrl": "https://youtube.com/example",
+    "durationMinutes": 45,
+    "isFree": true,
+    "createdAt": "2026-03-23T10:00:00.000Z"
+  }
+]

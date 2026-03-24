@@ -1,0 +1,12 @@
+[
+  {
+    "id": "88888888-8888-8888-8888-888888888888",
+    "lessonId": "44444444-4444-4444-4444-444444444444",
+    "front": "Công thức nghiệm phương trình bậc 2?",
+    "back": "x = (-b ± √Δ)/2a",
+    "subject": "Toán",
+    "difficulty": "Trung bình",
+    "tags": ["phương trình"],
+    "createdAt": "2026-03-23T10:00:00.000Z"
+  }
+]

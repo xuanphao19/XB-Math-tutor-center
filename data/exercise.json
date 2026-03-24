@@ -1,0 +1,13 @@
+[
+  {
+    "id": "66666666-6666-6666-6666-666666666666",
+    "title": "Kiểm tra chương 1",
+    "type": "Trắc nghiệm",
+    "subject": "Toán",
+    "level": "Mất gốc",
+    "questionIds": ["55555555-5555-5555-5555-555555555555"],
+    "timeLimitMinutes": 30,
+    "isFree": true,
+    "createdAt": "2026-03-23T10:00:00.000Z"
+  }
+]

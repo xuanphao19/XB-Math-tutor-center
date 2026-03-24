@@ -1,0 +1,12 @@
+[
+  {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "studentId": "11111111-1111-1111-1111-111111111111",
+    "type": "lesson",
+    "refId": "44444444-4444-4444-4444-444444444444",
+    "status": "Completed",
+    "score": 8,
+    "attempts": 1,
+    "completedAt": "2026-03-23T10:00:00.000Z"
+  }
+]
