@@ -47,8 +47,8 @@ export const homeMetadata: Metadata = {
     card: 'summary_large_image',
     title: 'Trung Tâm Toán Hóa 6-12 | Dạy Toán Hóa Chuyên Sâu',
     description:
-      'Dạy kèm Toán - Hóa lớp 6-12. Luyện thi vào 10 & đại học hiệu quả cao.',
-    images: ['/og-image.jpg'],
+      'Không chỉ giỏi hơn – mà tốt hơn. Luyện Toán – Hóa từ cơ bản đến nâng cao Dạy kèm Toán - Hóa lớp 6-12. Luyện thi vào 10 & đại học hiệu quả cao.',
+    images: ['https://xb-math-tutor-center.vercel.app/assets/images/Logo.png'],
   },
 
   robots: {
@@ -68,6 +68,8 @@ export const homeMetadata: Metadata = {
     shortcut: 'https://xb-math-tutor-center.vercel.app/assets/images/chess-nb.png',
     apple: 'https://xb-math-tutor-center.vercel.app/assets/images/chess-nb.png',
   },
-
+  alternates: {
+    canonical: 'https://xb-math-tutor-center.vercel.app',
+  },
   category: 'education',
 };
