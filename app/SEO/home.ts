@@ -35,7 +35,7 @@ export const homeMetadata: Metadata = {
       'Dạy kèm Toán - Hóa lớp 6-12 chất lượng cao. Giáo viên giỏi, lộ trình cá nhân hóa, giúp học sinh tự tin chinh phục kỳ thi. Không chỉ giỏi hơn – mà tốt hơn!',
     images: [
       {
-        url: 'https://xb-math-tutor-center.vercel.app/assets/images/Logo.png',
+        url: 'https://xb-math-tutor-center.vercel.app/assets/images/53be7bd1.png',
         width: 1200,
         height: 630,
         alt: 'Trung Tâm Toán Hóa 6-12',
