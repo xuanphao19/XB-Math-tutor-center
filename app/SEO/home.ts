@@ -65,10 +65,9 @@ export const homeMetadata: Metadata = {
 
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    shortcut: '/assets/images/chess-nb.png',
+    apple: '/assets/images/chess-nb.png',
   },
 
-  themeColor: '#1e40af',
   category: 'education',
 };

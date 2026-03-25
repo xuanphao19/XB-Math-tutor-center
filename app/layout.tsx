@@ -1,19 +1,32 @@
 // app/layout.tsx
 import { ReactNode } from 'react';
 import { ThemeProvider } from 'next-themes';
+import type { Metadata, Viewport } from 'next';
+import JsonLd, { organizationSchema } from './SEO/JsonLd';
 
+import { homeMetadata } from './SEO/home';
+
+import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
 import './globals.css';
 
-import type { Metadata } from 'next';
-import { homeMetadata } from './metadata/home';
-import Sidebar from './components/Sidebar';
-
 export const metadata: Metadata = {
   ...homeMetadata,
   // override một số field nếu cần
+};
+export const viewport: Viewport = {
+  themeColor: '#1e40af',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: true,
+  // Nếu muốn hỗ trợ light/dark mode:
+  // themeColor: [
+  //   { media: '(prefers-color-scheme: light)', color: '#ffffff' },
+  //   { media: '(prefers-color-scheme: dark)', color: '#1e40af' },
+  // ],
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -23,6 +36,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       suppressHydrationWarning
     >
       <body className=''>
+        <JsonLd data={organizationSchema} />
+
         <ThemeProvider
           attribute='class'
           defaultTheme='system'
@@ -47,7 +62,3 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     </html>
   );
 }
-/*
- h-[calc(100vh-150px)]
-
-*/
