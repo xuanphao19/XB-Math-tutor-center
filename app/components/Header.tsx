@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 export default function Header() {
   return (
     <header className='sticky top-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-sm'>
-      <Container className='flex pr-4 pl-6 h-16 items-center justify-between'>
+      <Container className='flex px-4 md:pl-5 h-16 items-center justify-between'>
         <div className='flex flex-1 justify-between items-center flex-row-reverse md:flex-row'>
           <Logo
             className='m-auto md:m-0'
@@ -20,7 +20,7 @@ export default function Header() {
           >
             XB Math
           </Logo>
-          <NavMenu className={'hidden md:flex mr-5'} />
+          <NavMenu className={'hidden md:flex mr-10 lg:mx-auto'} />
         </div>
         <div className='flex items-center gap-3'>
           <ThemeSwitcher />
