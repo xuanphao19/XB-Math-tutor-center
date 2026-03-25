@@ -18,7 +18,7 @@ export const organizationSchema = {
   description:
     'Trung tâm dạy kèm Toán - Hóa lớp 6 đến 12 chuyên sâu, luyện thi vào 10 & đại học',
   url: 'https://xb-math-tutor-center.vercel.app',
-  logo: 'https://xb-math-tutor-center.vercel.app/logo.png',
+  logo: 'https://xb-math-tutor-center.vercel.app/assets/images/Logo.png',
 
   address: {
     '@type': 'PostalAddress',
